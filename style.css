@@ -126,6 +126,7 @@ border-width: 0px;
 font-weight: 700;
 height: 57px;
 font-family: 'U8',sans-serif;
+cursor: pointer;
 }
 
 #select::placeholder, #select::-webkit-input-placeholder {
@@ -134,6 +135,14 @@ font-family: 'U8',sans-serif;
 
 .put::placeholder, .put::-webkit-input-placeholder {
     color: #adb3bb;
+}
+
+button#signup:hover {
+    background-color: rgb(6, 43, 111);
+}
+
+a#loginlink:hover {
+    color: rgb(179, 179, 179);
 }
 
 /*i {
